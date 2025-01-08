@@ -1,2 +1,7 @@
-# Hari_Portfolio
-The Repo that show how to configure a portfolio design only using HTML&amp;CSS 
+# My Folio ⚡️ 
+✔️ Summary and About me
+✔️ Skills
+✔️ Badges 🏆
+✔️ Work Experience
+✔️ Contact me
+
