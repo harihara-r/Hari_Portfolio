@@ -172,8 +172,16 @@ body {
     width: 320px;
     height: 220px;
     position: absolute;
-    top: 1025px;
-    left: 390px;
+    top: 1090px;
+    left: 330px;
+    border-radius: 20px;
+}
+#about-pic-3{
+    width: 320px;
+    height: 220px;
+    position: absolute;
+    top: 850px;
+    left: 550px;
     border-radius: 20px;
 }
 #about-text{
@@ -215,6 +223,7 @@ body {
   background-color: rgba(51, 54, 82, 0.8); /* Change background color on hover */
   color: #ffffff; /* Change text color on hover */
 }
+
 #skill-cl1,#skill-cl2{
     float:left;
   }
