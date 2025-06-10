@@ -461,6 +461,9 @@ left:150px;
 #com{
   font-size: 35px;
 }
+#des{
+  display: inherit;
+}
 #badges-page{
   background:rgb(51, 54, 82);
   padding:1px;
@@ -510,7 +513,10 @@ left:150px;
   font-size: 18px; /* Adjust font size */
   
   }
-  
+  #contact-col1
+{
+  display:block;
+}
   #contact-email{
   padding-left: 180px;
   }
@@ -570,4 +576,372 @@ left:150px;
 #samp{
   display:flex
 }
-   
+@media (max-width: 450px){
+  body {
+    margin: 0;
+}
+
+  #namepage{
+    width:100%;
+    min-height:20px;
+    background-color: rgb(51, 54, 82);; 
+    min-height:500px;
+    background-attachment:fixed;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    
+  }
+  
+  
+  
+  #header{
+    position:absolute;
+     width:100%;
+     }
+    #header-menu{
+      padding-top:2px;
+      display: inline;
+    }
+     #right{
+     position:absolute;
+     right:28px;
+     top:50px;
+    }
+    #github{
+      display: inline;
+      
+    }
+    #github,#linkedin,#code
+    {
+    color:white;
+    text-decoration:none;
+    padding-left:25px;
+    }
+    #head-ul{
+    list-style-type:none;
+    position: absolute;
+    top:3px;
+    }
+    
+    .head-li{
+    display:inline;
+    }
+    #head-1,#head-2,#head-5{
+      display: none;
+    }
+    #head-a{
+     text-decoration:none;
+     color:white;
+     font-size:15px;
+     }
+     #header-name{
+    color:rgb(143, 34, 34);
+    position:absolute;
+    top:0px;
+    font-size:8px;
+    left:30px;
+    }
+    
+     #headrolename{
+        position: absolute;
+        top: 380px;
+        left: 100px;
+       }
+    
+    #name{
+       text-align:center;
+       color: white;
+       font-size: 28px;
+    }
+    #name-pic{
+    border-radius: 20px;
+    position: relative;
+    top: 180px;
+    left: 100px;
+    width: 180px;
+    height: 180px;
+}
+
+#typing{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+    color: white;
+    /* background-color: #5c6f91; */
+  }
+  
+#wrapping
+{
+  display: inline-flex;
+}
+#static-div{
+  font-size: 26px;
+  height: 400;
+}
+#dynamic-txt{
+  margin-left: -50px;
+  margin-top: 0;
+  height: 30px;
+  line-height: 30px;
+  overflow: hidden;
+}
+#dynamic-txt li{
+  margin-left: 15px;
+  list-style: none;
+  font-size: 26px;
+  height: 400;
+  color: #f3ebeb;
+  position: relative;
+  line-height: 30px;
+  overflow: hidden;
+  top:0;
+  animation: side 3s steps(2) infinite;
+}
+@keyframes side {
+  100%{
+    top:-60px;
+  }
+  
+}
+#dynamic-txt li span{
+  position: relative;
+}
+#dynamic-txt li span::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  border-left: 2px solid #2c2828;
+  height: 100%;
+  width: 100%;
+  background: rgb(51, 54, 82);
+  animation: typing 1.5s steps(10) infinite;
+}
+@keyframes typing {
+  100%{
+    left:100%;
+    margin: 0 -35px 0 35px;
+
+  }
+  
+}
+#about-page{
+    /* padding:1px; */
+    padding-left:100px;
+    padding-right:100px;
+    background-color:rgb(51, 54, 82);
+    height:350px;
+    
+}
+
+
+#about-img{
+    display: flex;
+    flex-direction: column;
+    
+}
+#about-pic-1,#about-pic-2,#about-pic-3{
+  display: none;
+}
+
+#about-text{
+    color: white;
+    position: absolute;
+    top: 500px;
+    left: 10px;
+}
+#about-name{
+   position: relative;
+    font-size: 20px;
+    left: 8px;
+}
+#about-role{
+  display: none;
+}
+#about-syt{
+  position: relative;
+  left: 20px;
+    font-size: 12px;
+    font-style: archivo black;
+}
+#aboutbtn{
+  position: relative;
+  top: 30px;
+  left: 45px;
+  
+}
+#linkedinbtn,#leetcodebtn {
+  background-color: rgb(227, 229, 240); /* Initial button color */
+  color: rgb(51, 54, 82); /* Text color matching the background */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 17px;
+  cursor: pointer;
+  margin-right: 30px;
+  transition: transform 0.3s ease, background-color 0.3s ease;/* Smooth transition */
+}
+
+#linkedinbtn:hover,#leetcodebtn:hover {
+  transform: scale(1.05);/* Slightly enlarge the button*/
+  background-color: rgba(51, 54, 82, 0.8); /* Change background color on hover */
+  color: #ffffff; /* Change text color on hover */
+}
+
+
+ #skills-page{
+  background-color: rgb(51, 54, 82);
+  height: 500px;
+  padding: 0px 0px 0px 0px;
+  position: absolute;
+  width: 50%;
+ }
+ #skill-title{
+  position: absolute;
+  left: 20px;
+ }
+ #skill-page{
+  padding-left: 10px;
+  padding-right: 10px;
+
+ }
+#skill,#skill1,#skill2{
+position: relative;
+top: 100px;
+}
+#skl{
+border: 2px solid black; 
+width:120px;
+border-radius:10px;
+height:35px;
+/* margin: 16px; */
+background-color: rgb(227, 229, 240);
+
+}
+#html,#ht{
+  display: inline;
+}
+#html{
+  width: 15px;
+  top: 7px;
+  left: 8px;
+}
+#ht{
+  top: -6px;
+  color: #0f0f0f;
+  font-size: 14px;
+  left: 35px;
+}
+#Exp-page{
+  background:rgb(51, 54, 82);
+    position: relative;
+    padding-left: 10px;
+    height:350px;
+    padding: 1px;
+}
+#role {
+    position: relative;
+    left: 3px;
+    font-size: 18px;
+}
+#Exp-title{
+  color: white;
+  position: absolute;
+  
+  top: 30px;
+  left: 20px;
+  /* font-weight:70px; */
+  font-size:30px;
+}
+#exp-icon{
+  position: relative;
+  top:140px;
+  left: 30px;
+  height: 30px;
+}
+#rol1{
+  position: relative;
+  left: 100px;
+  top: 85px;
+}
+#com{
+  font-size: 20px;
+}
+/* .role1{
+  position: absolute;
+  left: 250px;
+}
+.role2{
+  position: relative;
+  left: 10px;
+  top: 150px;
+  background-color: red; */
+#des{
+  display: none;
+}
+#date1{
+  position: relative;
+  left: 10px;
+  top: 5px;
+  font-size: 12px;
+}
+#badges-page{
+  background:rgb(51, 54, 82); 
+  padding:1px;
+  padding-left:230px;
+  padding-right:100px;
+  height:220px;
+  color: white;
+}
+#badges-title{
+  position: absolute;
+  left: 20px;
+  font-weight:700;
+  font-size:38px;
+}
+#leetcode-sql{
+  height: 150px;
+  position: relative;
+  top: 55px;
+  left: -60px;}
+
+  #contact-page {
+    height: 555px;
+    padding: 1px;
+    background: rgb(51, 54, 82);
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+}
+#contact-title {
+  position: relative;
+  left: 20px;
+    font-size: 30px;
+    padding: 0px 0px 0px 0px;
+}
+#contact-col1
+{
+  display: none;
+}
+#contact-col2:hover {
+    box-shadow: 9px 9px 15px 0px rgb(99, 63, 63);
+    background-color: rgba(0, 0, 0, 0.889);
+}
+#contact-col2 {
+    width: 67%;
+    height: 330px;
+    background-color: black;
+    border-radius: 10px;
+    margin: 50px;
+    padding: 50px;
+    line-height: 30px;
+    margin: 10px 10px 10px 10px;
+}
+#pretag1{
+  font-size: 70%;
+}
+#samp {
+    display: inline;
+}
+}
